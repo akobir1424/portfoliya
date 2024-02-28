@@ -1,0 +1,14 @@
+/* HTML elementini animatsiyalash */
+.element {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
+
+/* Elementga o'zgarishni qo'shish */
+.element:hover {
+  width: 500px;
+  /* height: 200px; */
+}
